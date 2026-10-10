@@ -47,8 +47,9 @@ To rigorously validate our quantum circuits, we constructed exact classical brut
 **QPU Seconds:** 2s  
 
 *(IBM Quantum Platform execution metrics and hardware-aware transpiled circuit diagrams)*
-![IBM Job Status](ibm_job_status.png)
-![Measurement Histogram](ibm_histogram.png)
+![IBM Job Status](ibm_job_status.jpeg)
+![Measurement Histogram](ibm_histogram.jpeg)
+![Measurement Circuit](ibm_circuit_diagram.jpeg)
 
 ## Limitations
 
