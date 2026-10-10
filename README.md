@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Team** | Team Intellects |
-| **Members** | Om Viroje, [Your Email] |
+| **Members** | Om Viroje, om.viroje@gmail.com |
 | **Track** | 2 · Quantum Optimization |
 | **Level reached** | Advanced |
 | **Code files** | `track2_portfolio_qaoa.ipynb` |
@@ -15,7 +15,7 @@ We set out to solve the portfolio selection problem at scale by transitioning fr
 
 ## Approach
 
-For the Beginner level, we mapped the asset covariance matrix to a cost Hamiltonian and used `LinearEqualityToPenalty` to enforce the budget constraint[cite: 6]. For the Intermediate level, we engineered a custom XY-Mixer ($XX + YY$) combined with a Dicke initial state to ensure the optimizer only explored valid portfolios[cite: 6]. For the Advanced level hardware run, we compiled the circuit with `optimization_level=3` and enabled Dynamical Decoupling (XX sequence) to suppress idle decoherence[cite: 6].
+For the Beginner level, we mapped the asset covariance matrix to a cost Hamiltonian and used `LinearEqualityToPenalty` to enforce the budget constraint[cite: 6]. For the Intermediate level, we engineered a custom XY-Mixer ($XX + YY$) combined with a Dicke initial state to ensure the optimizer only explored valid portfolios. For the Advanced level hardware run, we compiled the circuit with `optimization_level=3` and enabled Dynamical Decoupling (XX sequence) to suppress idle decoherence.
 
 ## Results
 
